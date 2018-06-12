@@ -1,0 +1,163 @@
+
+html, body {
+  font-family: "Helvetica" sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: horizontally centered;
+}
+
+.header {
+  border-style: solid;
+  border-bottom: 1px solid seashell;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png");
+  background-repeat: no-repeat;
+  background-position: 50px;
+
+
+}
+
+.header ul{
+  text-align: right;
+  font-size: 30px;
+
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: underline;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+}
+.Heading {
+ text-align: center;
+ background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+ height: 700px;
+ width:1500px;
+ margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 50px;
+}
+
+ .container p {
+   display:inline-block;
+   font-size: 40px;
+}
+
+.Pictures {
+  display: flex;
+  justify-content: center;
+}
+
+.Pictures .span {
+  display: flex;
+  justify-content: center;
+}
+ .container1 {
+   text-align: center;
+ }
+  .container h2 {
+    font-size: 50px;
+    text-align: left;
+  }
+  .container1 p {
+    font-size: 40px;
+    text-align: center;
+  }
+ .Pictures img {
+   display: inline-block;
+   height: 200px;
+   width: 300px;
+   margin: 0 auto;
+   padding: 20px 30px;
+   background-repeat: no-repeat;
+ }
+
+
+
+ }
+.Locations img {
+  height: 500px;
+  width: 100px
+  background-position: center;
+  width: 100%;
+}
+
+.Locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1500px;
+
+}
+.Locations h2, p {
+  text-align: center;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.wrap .span {
+  justify-content: center;
+}
+.wrap img {
+justify-content: center;
+}
+
+.wrapper {
+  display:inline-flex;
+  justify-content: center;
+}
+ .Locations .border {
+  height: 300px;
+  width: 300px;
+  border: 5px black solid;
+  background-color: white;
+  display: inline-block;
+}
+
+.Locations .border1 {
+  height: 300px;
+  width: 300px;
+  border: 5px black solid;
+  background-color: white;
+  display: inline-block;
+}
+
+.Locations .border2 {
+  height: 300px;
+  width: 300px;
+  border: 5px black solid;
+  background-color: white;
+  display: inline-block;
+}
+
+.Locations .border .border1 .border2 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.footer h2 {
+  font-size: 40px;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+}
+
+.footer p {
+  font-size: 30px;
+}
